@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.menu{
+    width: 80%;
+    margin-left:10%;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    float: right;
+}
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    color:black;
+    padding:10px 10px;
+    font-family: 'Roboto', sans-serif;
+}
+/* ==========END OF MENU CSS============ */
+.left-box{
+    width: 35%;
+    float:left;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-right: 3%;
+}
+section{
+    height: 500px;
+}
+.left-box h1{
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+.left-box .name-heighlight{
+    color:orange;
+}
+.right-box{
+    width: 35%;
+    float:left;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-right: 3%;
+}
+.right-box img{
+    width: 100%;
+}
+.left-box img{
+    width: 100%;
+}
+.link-btn{
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+    background-image: linear-gradient(90deg,orange,lightSalmon);
+    padding:10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top:10px;
+}
+/* =================END OF ABOUT CSS====================== */
+.box{
+    width: 23.33%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    box-shadow: 3px 7px 20px black;
+    padding: 10px;
+    border-radius: 10px;
+    height: 70%;
+}
+.box img{
+    width: 100%;
+}
+.working-heighlight{
+    color:tomato;
+}
