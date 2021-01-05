@@ -7,9 +7,14 @@ body{
 h1{
     font-size: 50px;
 }
+nav{
+    background-color: teal;
+    min-height: 45px;
+}
 .menu{
     width: 80%;
     margin-left:10%;
+
 }
 .menu ul{
     list-style-type: none;
@@ -20,8 +25,8 @@ h1{
 .menu ul li a{
     display: block;
     text-decoration: none;
-    color:black;
-    padding:10px 10px;
+    color:white;
+    padding:13px 10px;
     font-family: 'Roboto', sans-serif;
 }
 /* ==========END OF MENU CSS============ */
@@ -81,4 +86,52 @@ section{
 }
 .working-heighlight{
     color:tomato;
+}
+#inquery{
+    height: 285px;
+}
+.bg-image {
+    background-image: url(images/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 10%;
+    width: 75%;
+    height: 300px;
+}
+.left-text h1 {
+    color: white;
+}
+.left-text {
+    float: left;
+    padding-top: 43px;
+    margin-left: 5%;
+}
+.right-text{
+
+    float: right;
+}
+.right-text a {
+    margin-top: 107px;
+    margin-left: -184px;
+}
+/* START FOTTER PART OF CSS */
+.footer-text{
+    width: 70%;
+    text-align: center;
+    margin-left: 10%;
+}
+.social-icon li {
+    padding: 5px 5px;
+    display: inline-block;
+    list-style-type: none;
+}
+.social-icon li a {
+    text-decoration: none;
+}
+.social-icon {
+    width: 64%;
+    margin-left: 36%;
+}.social-icon img {
+    width: 64px;
+    height: 64px;
 }
