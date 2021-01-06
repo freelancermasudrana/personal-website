@@ -6,15 +6,11 @@ body{
 }
 h1{
     font-size: 50px;
+    font-family: 'Oswald', sans-serif
 }
 nav{
     background-color: teal;
     min-height: 45px;
-}
-.menu{
-    width: 80%;
-    margin-left: 60%;
-
 }
 .menu ul{
     list-style-type: none;
@@ -31,14 +27,17 @@ nav{
 }
 /* ==========END OF MENU CSS============ */
 .left-box{
-    width: 35%;
+    width: 40%;
     float:left;
     margin-left: 5%;
     padding-left: 2%;
-    padding-right: 3%;
+
 }
 section{
-    height: 500px;
+    height: 580px;
+}
+section.about{
+    padding-top: 57px;
 }
 .left-box h1{
     text-transform: uppercase;
@@ -48,17 +47,14 @@ section{
     color:orange;
 }
 .right-box{
-    width: 35%;
+    width: 40%;
     float:left;
     margin-left: 5%;
     padding-left: 2%;
     padding-right: 3%;
 }
-.right-box img{
-    width: 100%;
-}
-.left-box img{
-    width: 100%;
+.left-box img {
+    width: 492px;
 }
 .link-btn{
     text-decoration: none;
@@ -72,20 +68,27 @@ section{
 }
 /* =================END OF ABOUT CSS====================== */
 .box{
-    width: 23.33%;
+    width: 25.33%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
     box-shadow: 3px 7px 20px black;
     padding: 10px;
     border-radius: 10px;
-    height: 70%;
+    height: 62%;
+}
+#project-area-bg{
+    background-color: #f3f2f2;
+    padding-top: 10px;
 }
 .box img{
     width: 100%;
 }
 .working-heighlight{
     color:tomato;
+}
+#top-bg{
+    height: 650px;
 }
 #inquery{
     height: 285px;
@@ -94,12 +97,14 @@ section{
     background-image: url(images/Group_33094_1.png);
     background-repeat: no-repeat;
     background-size: contain;
-    margin-left: 10%;
+    margin-left: 12%;
+    margin-top: 66px;
     width: 75%;
     height: 300px;
 }
 .left-text h1 {
     color: white;
+    font-family: 'Oswald', sans-serif;
 }
 .left-text {
     float: left;
@@ -107,18 +112,51 @@ section{
     margin-left: 5%;
 }
 .right-text{
-
     float: right;
+}
+.right-box p{
+    text-align: justify;
 }
 .right-text a {
     margin-top: 107px;
     margin-left: -184px;
 }
+#contact-bg {
+    height: 456px;
+    background-image: linear-gradient(45deg, black, #4a4343, transparent);
+    padding-top: 2px;
+}
+.contact-page input {
+    padding: 18px 33px;
+    background-color: #ddd;
+    border-radius: 6px;
+}
+.contact-page textarea {
+    background-color: #ddd;
+    border-radius: 9px;
+    margin-top: 16px;
+}
+.contact-page button {
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.contact-page h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Oswald', sans-serif
+}
+.contact-page form {
+    margin-left: 26%;
+}
 /* START FOTTER PART OF CSS */
+footer {
+    margin-left: 13%;
+}
 .footer-text{
     width: 70%;
     text-align: center;
-    margin-left: 10%;
+    margin-left: 11%;
 }
 .social-icon li {
     padding: 5px 5px;
