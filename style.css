@@ -46,7 +46,7 @@ section{
     height: 580px;
 }
 section.about{
-    padding-top: 57px;
+    padding-top: 98px;
 }
 .left-box h1{
     text-transform: uppercase;
@@ -63,7 +63,9 @@ section.about{
     padding-right: 3%;
 }
 .left-box img {
-    width: 492px;
+    width: 100%;
+    margin-top: -70px;
+
 }
 /*====================END OF INTRODUCTION PART CSS===================== */
 .right-box img {
