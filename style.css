@@ -13,14 +13,14 @@ nav{
 }
 .menu{
     width: 80%;
-    margin-left:10%;
+    margin-left: 60%;
 
 }
 .menu ul{
     list-style-type: none;
 }
 .menu ul li{
-    float: right;
+    float: left;
 }
 .menu ul li a{
     display: block;
