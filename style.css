@@ -107,6 +107,9 @@ section.about{
 .box img{
     width: 100%;
 }
+.box h3 {
+    padding: 8px 0px;
+}
 .working-heighlight{
     color:tomato;
 }
